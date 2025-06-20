@@ -3,11 +3,20 @@
 
 int main () {
 
+    // declare variables from large size to short for better performance -- padding 
+
     struct user {
-        int id;
-        char name[20];
         char email[25];
+        char name[20];
         char dob[15];
+        int id;
+
+        union educations
+        {
+            char degree_name[20];
+            char institution[]
+        };
+        
 
     };
 
