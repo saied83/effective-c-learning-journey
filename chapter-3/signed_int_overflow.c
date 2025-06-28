@@ -12,3 +12,7 @@ int main() {
 
     return EXIT_SUCCESS;
 }
+
+
+// int abs(int i) {
+// return (i >= 0) ? i : -(unsigned)i; }
